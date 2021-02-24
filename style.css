@@ -18,7 +18,7 @@ a {
     padding: 10px;
 }
 .info{
-    color: aliceblue;>
+    color: aliceblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -233,7 +233,7 @@ h2{
     max-width: 300px
 }
 .formu input{
-     font-size: 2em;
+     font-size: 1.5em;
 }
 .formu button{
     font-size: 1.5em;
