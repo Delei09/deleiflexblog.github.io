@@ -189,6 +189,7 @@ h2{
 }
 .texto-item{
     max-width: 300px;
+    margin: 5px;
 }
 .objetivo h2{
     border-left: 4px solid blue;
