@@ -1,0 +1,253 @@
+body, p, a, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+/*informações superiores*/
+.info-superior{
+    background: blue;
+    padding: 10px;
+}
+.info{
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 960px;  
+}
+/*menu de navegação*/
+.menu-btg{
+    background-color: darkblue;
+    color: aliceblue;
+    
+}
+.menu-container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    font-size: 2.3em;
+    padding: 10px;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    margin: 10px;
+    padding: 10px;
+}
+/*texto Superior*/
+.texto-superior{
+   font-size: 1.7em; 
+    text-align: left;
+    max-width: 960px;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+/*texto sobre*/
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+    padding: 25px;
+    justify-content: space-around;
+}
+h2{
+    font-size: 2.25em;
+}
+.texto p{
+    font-size: 1.25em;
+    margin: 10px;
+    letter-spacing: 1px;
+    max-width: 450px;
+}
+.img-1{
+    max-width: 200px;
+    margin: 10px;
+}
+.img-2{
+    max-width: 200px;
+    margin: 10px;
+}
+/*Produtos*/
+.container-produto{
+    margin: 60px auto;
+    max-width: 960px;
+}
+.produto h2{
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+.produto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.produtos-item{
+    background-color: gainsboro;
+    flex:1 1 175px;
+    margin: 10px;
+ }
+.produtos-item img{
+    max-width: 100%;
+ }
+.purple{
+    border-top:7px solid purple;
+}
+.azul{
+    border-top: 7px solid blue;
+}
+.pink{
+    border-top: 7px solid deeppink;
+}
+/*preço*/
+.preco{
+    background-color: gainsboro;
+}
+.container-preco{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-end;
+    max-width: 960px;
+}
+.preco-item{
+    flex: 1;
+    border: 5px solid white;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    min-width: 220px; 
+}
+.preco-item h2{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+.preco-item p{
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 3px solid white;
+}
+.preco-item li{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.preco-item li::after{
+    content:" ";
+    width: 6px;
+    height: 6px;
+    background: blue;
+    display: block;
+    border-radius: 50%;
+}
+.preco-item button{
+    font-size: 2em;
+    text-align: center;
+    margin:0 auto ;
+    padding: 10px;
+    display: block;   
+} 
+@media screen and (max-width: 800px){
+    .preco .preco-item:nth-child(3){
+        order: -3;
+    }
+    .preco .preco-item:nth-child(2){
+        order: -2;
+    }
+}
+    /*texto explicativo*/
+    
+.texto-expli{
+    max-width: 960px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.texto-item{
+    max-width: 300px;
+}
+.objetivo h2{
+    border-left: 4px solid blue;
+    text-align: center;
+}
+.inteligente h2 {
+    border-left: 4px solid red;
+    text-align: center;
+}
+.transparente h2 {
+    border-left: 4px solid purple;
+    text-align: center;
+}
+
+/*newsla=etter*/
+.new-btg{
+       background-color: gainsboro;
+}
+.new{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-texto{
+    flex: 1 0 300px;
+    padding: 10px;
+}
+.formu{
+    flex: 3 0 300px;
+}
+.formu input{
+     font-size: 2em;
+}
+.formu button{
+    font-size: 1.5em;
+}
+footer{
+    background-color:grey;
+    
+}
+footer p{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
